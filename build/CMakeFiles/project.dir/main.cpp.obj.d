@@ -150,6 +150,7 @@ CMakeFiles/project.dir/main.cpp.obj: \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Elliptic.h \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Legendre.h \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/RBJ.h \
+ C:/Users/deshi/Code/dsp-minor-project/include/DSPFilters/Biquad.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iomanip \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\locale \
