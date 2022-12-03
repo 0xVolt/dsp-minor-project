@@ -140,17 +140,9 @@ CMakeFiles/project.dir/main.cpp.obj: \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/PoleFilter.h \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/SmoothedFilter.h \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Utilities.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Bessel.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Design.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/RootFinder.h \
  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Butterworth.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/ChebyshevI.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/ChebyshevII.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Custom.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Elliptic.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Legendre.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/RBJ.h \
- C:/Users/deshi/Code/dsp-minor-project/include/DSPFilters/Biquad.h \
+ C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Design.h \
+ C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/PoleFilter.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iomanip \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\locale \
