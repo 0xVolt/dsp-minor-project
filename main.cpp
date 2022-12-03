@@ -1,5 +1,10 @@
 #include <iostream>
+#include "include/Common.h"
 
-int main(int, char**) {
-    std::cout << "Hello, world!\n";
+using namespace std;
+
+int main() {
+    cout << "Hello, world!\n";
+
+    return 0;
 }
