@@ -14,6 +14,30 @@ int main()
     audioData[0] = new float[numSamples];
     audioData[1] = new float[numSamples];
 
+    // Extract coefficients from a Cascade
+    {
+        Dsp::SimpleFilter<Dsp::Butterworth::HighPass<3>> f;
+        f.setup(3, 44100, 2000);
+
+        std::ostringstream os;
+
+        os << "numStages = " << f.getNumStages() << "\n"
+            << "a0[0] = " << f[0].getA0() << "\n"
+            << "a1[0] = " << f[0].getA1() << "\n"
+            << "a2[0] = " << f[0].getA2() << "\n"
+            << "b0[0] = " << f[0].getB0() << "\n"
+            << "b1[0] = " << f[0].getB1() << "\n"
+            << "b2[0] = " << f[0].getB2() << "\n"
+            << "a0[1] = " << f[1].getA0() << "\n"
+            << "a1[1] = " << f[1].getA1() << "\n"
+            << "a2[1] = " << f[1].getA2() << "\n"
+            << "b0[1] = " << f[1].getB0() << "\n"
+            << "b1[1] = " << f[1].getB1() << "\n"
+            << "b2[1] = " << f[1].getB2() << "\n";
+
+        std::cout << os.str();
+    }
+    
     // create a 2-channel RBJ Low Pass with parameter smoothing
     // and apply it to the audio data
     // {
@@ -131,29 +155,6 @@ int main()
     //     Dsp::complex_t response = f.response(440. / 44100);
     // }
 
-    // Extract coefficients from a Cascade
-    {
-        Dsp::SimpleFilter<Dsp::Butterworth::HighPass<3>> f;
-        f.setup(3, 44100, 2000);
-
-        std::ostringstream os;
-
-        os << "numStages = " << f.getNumStages() << "\n"
-            << "a0[0] = " << f[0].getA0() << "\n"
-            << "a1[0] = " << f[0].getA1() << "\n"
-            << "a2[0] = " << f[0].getA2() << "\n"
-            << "b0[0] = " << f[0].getB0() << "\n"
-            << "b1[0] = " << f[0].getB1() << "\n"
-            << "b2[0] = " << f[0].getB2() << "\n"
-            << "a0[1] = " << f[1].getA0() << "\n"
-            << "a1[1] = " << f[1].getA1() << "\n"
-            << "a2[1] = " << f[1].getA2() << "\n"
-            << "b0[1] = " << f[1].getB0() << "\n"
-            << "b1[1] = " << f[1].getB1() << "\n"
-            << "b2[1] = " << f[1].getB2() << "\n";
-
-        std::cout << os.str();
-    }
 
     return 0;
 }
