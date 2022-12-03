@@ -142,15 +142,18 @@ CMakeFiles/project.dir/main.cpp.obj: C:/Users/deshi/Code/dsp-minor-project/main.
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
-  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/ChebyshevI.h \
-  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Cascade.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Biquad.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/MathSupplement.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Types.h \
+  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Cascade.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Filter.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Params.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/State.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Layout.h \
+  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/PoleFilter.h \
+  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/SmoothedFilter.h \
+  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Utilities.h \
+  C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Butterworth.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Design.h \
   C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/PoleFilter.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream \
@@ -448,13 +451,11 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h:
 
-C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/ChebyshevI.h:
-
-C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Cascade.h:
-
 C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Biquad.h:
 
 C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Types.h:
+
+C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Cascade.h:
 
 C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Filter.h:
 
@@ -464,9 +465,15 @@ C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/State.h:
 
 C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Layout.h:
 
-C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Design.h:
-
 C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/PoleFilter.h:
+
+C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/SmoothedFilter.h:
+
+C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Utilities.h:
+
+C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Butterworth.h:
+
+C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Design.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream:
 
