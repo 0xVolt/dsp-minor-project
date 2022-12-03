@@ -8,15 +8,11 @@
 using namespace std;
 
 int main() {
-    // float *audioChannels[NUMBER_CHANNELS];
+    float *audioChannels[NUMBER_CHANNELS];
 
-    // for (int i = 0; i < NUMBER_CHANNELS; ++i) {
-    //     audioChannels[i] = new float[NUMBER_SAMPLES];
-    // }
-
-    print();
-
-    cout << "Here!";
+    for (int i = 0; i < NUMBER_CHANNELS; ++i) {
+        audioChannels[i] = new float[NUMBER_SAMPLES];
+    }
 
     return 0;
 }
