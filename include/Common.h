@@ -11,6 +11,8 @@
 
 //#include <assert.h>
 #include <stdlib.h>
+#include <iomanip>
+#include <sstream>
 
 #include <cassert>
 #include <cfloat>
