@@ -85,17 +85,17 @@ int main()
     // Use the simple filter API to create a Chebyshev Band Stop of order 3
     // and 1dB ripple in the passband. The simle API has a smaller
     // footprint, but no introspection or smoothing.
-    {
-        // Note we use the raw filter instead of the one
-        // from the Design namespace.
-        Dsp::SimpleFilter<Dsp::ChebyshevI::BandStop<3>, 2> f;
-        f.setup(3,     // order
-                44100, // sample rate
-                4000,  // center frequency
-                880,   // band width
-                1);    // ripple dB
-        f.process(numSamples, audioData);
-    }
+    // {
+    //     // Note we use the raw filter instead of the one
+    //     // from the Design namespace.
+    //     Dsp::SimpleFilter<Dsp::ChebyshevI::BandStop<3>, 2> f;
+    //     f.setup(3,     // order
+    //             44100, // sample rate
+    //             4000,  // center frequency
+    //             880,   // band width
+    //             1);    // ripple dB
+    //     f.process(numSamples, audioData);
+    // }
 
     // Set up a filter, extract the coefficients and print them to standard
     // output. Note that this filter is not capable of processing samples,
@@ -132,28 +132,28 @@ int main()
     // }
 
     // Extract coefficients from a Cascade
-    // {
-    //     Dsp::SimpleFilter<Dsp::Butterworth::HighPass<3>> f;
-    //     f.setup(3, 44100, 2000);
+    {
+        Dsp::SimpleFilter<Dsp::Butterworth::HighPass<3>> f;
+        f.setup(3, 44100, 2000);
 
-    //     std::ostringstream os;
+        std::ostringstream os;
 
-    //     os << "numStages = " << f.getNumStages() << "\n"
-    //         << "a0[0] = " << f[0].getA0() << "\n"
-    //         << "a1[0] = " << f[0].getA1() << "\n"
-    //         << "a2[0] = " << f[0].getA2() << "\n"
-    //         << "b0[0] = " << f[0].getB0() << "\n"
-    //         << "b1[0] = " << f[0].getB1() << "\n"
-    //         << "b2[0] = " << f[0].getB2() << "\n"
-    //         << "a0[1] = " << f[1].getA0() << "\n"
-    //         << "a1[1] = " << f[1].getA1() << "\n"
-    //         << "a2[1] = " << f[1].getA2() << "\n"
-    //         << "b0[1] = " << f[1].getB0() << "\n"
-    //         << "b1[1] = " << f[1].getB1() << "\n"
-    //         << "b2[1] = " << f[1].getB2() << "\n";
+        os << "numStages = " << f.getNumStages() << "\n"
+            << "a0[0] = " << f[0].getA0() << "\n"
+            << "a1[0] = " << f[0].getA1() << "\n"
+            << "a2[0] = " << f[0].getA2() << "\n"
+            << "b0[0] = " << f[0].getB0() << "\n"
+            << "b1[0] = " << f[0].getB1() << "\n"
+            << "b2[0] = " << f[0].getB2() << "\n"
+            << "a0[1] = " << f[1].getA0() << "\n"
+            << "a1[1] = " << f[1].getA1() << "\n"
+            << "a2[1] = " << f[1].getA2() << "\n"
+            << "b0[1] = " << f[1].getB0() << "\n"
+            << "b1[1] = " << f[1].getB1() << "\n"
+            << "b2[1] = " << f[1].getB2() << "\n";
 
-    //     std::cout << os.str();
-    // }
+        std::cout << os.str();
+    }
 
     return 0;
 }
