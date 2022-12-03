@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/deshi/Code/dsp-minor-project/main.cpp" "CMakeFiles/project.dir/main.cpp.obj" "gcc" "CMakeFiles/project.dir/main.cpp.obj.d"
+  "C:/Users/deshi/Code/dsp-minor-project/src/src.cpp" "CMakeFiles/project.dir/src/src.cpp.obj" "gcc" "CMakeFiles/project.dir/src/src.cpp.obj.d"
   )
 
 # Targets to which this target links.

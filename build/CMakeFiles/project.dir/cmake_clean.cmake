@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/project.dir/main.cpp.obj"
   "CMakeFiles/project.dir/main.cpp.obj.d"
+  "CMakeFiles/project.dir/src/src.cpp.obj"
+  "CMakeFiles/project.dir/src/src.cpp.obj.d"
   "libproject.dll.a"
   "project.exe"
   "project.exe.manifest"

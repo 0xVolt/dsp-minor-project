@@ -1,6 +1,6 @@
-CMakeFiles/project.dir/main.cpp.obj: \
- C:\Users\deshi\Code\dsp-minor-project\main.cpp \
- C:\Users\deshi\Code\dsp-minor-project\include/Common.h \
+CMakeFiles/project.dir/src/src.cpp.obj: \
+ C:\Users\deshi\Code\dsp-minor-project\src\src.cpp \
+ c:\users\deshi\code\dsp-minor-project\include\common.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
