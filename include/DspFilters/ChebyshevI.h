@@ -40,7 +40,7 @@ THE SOFTWARE.
 #include "C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Cascade.h"
 #include "C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Design.h"
 #include "C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/Filter.h"
-#include "DspFilters/PoleFilter.h"
+#include "C:/Users/deshi/Code/dsp-minor-project/include/DspFilters/PoleFilter.h"
 
 namespace Dsp {
 
